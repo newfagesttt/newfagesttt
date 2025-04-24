@@ -94,3 +94,29 @@
 #mails = ["Письмо 1", "Письмо 2", "Письмо 3", "Письмо 4", "Письмо 5"]
 #email = mails [ : : -1]
 #print(email)
+#emails = ["Письмо 1", "Письмо 2", "Письмо 3", "Письмо 4", "Письмо 5"]
+#print("Третье письмо:", emails[2])
+#print("Предпоследнее письмо:", emails[-2])
+#results = [10, 8, 9, 7, 6, 9, 10, 8, 9, 10]
+#count_total = len(results) #кол-во чисел
+#average = sum_total / count_total
+#min_score = min(results)
+#max_score = max(results)
+#print("среднее арифметическое всех результатов выстрелов:", average)
+#print("наименьшее количество очков за выстрел:", min_score)
+#print("наибольшее количество очков за выстрел:", max_score)
+#fruits = ["яблоко", "банан", "опельсин", "виноград"]
+#wrong_word  = fruits[2]
+#correct_word = "a" + wrong_word[1 :]
+#fruits[2] = correct_word
+#print(fruits)
+#speed = 4096
+#time_minutes = 120
+#cost_per_kb = 0.125
+#speed_kb = speed / 1024
+#time_seconds = time_minutes * 60
+#file_size_kb = speed_kb * time_seconds
+#paid_traffic = max(file_size_kb - 500, 0)
+#traffic_cost = paid_traffic * cost_per_kb
+#print(f"Размер файла в килобайтах: {file_size_kb}")
+#print(f"За трафик придется заплатить: {traffic_cost}")
